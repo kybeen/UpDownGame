@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43D05BE2991696B005A9DDD /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D05BD2991696B005A9DDD /* CreditViewController.swift */; };
 		C49E02F7298DAD650071A371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E02F6298DAD650071A371 /* AppDelegate.swift */; };
 		C49E02F9298DAD650071A371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E02F8298DAD650071A371 /* SceneDelegate.swift */; };
 		C49E02FB298DAD650071A371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E02FA298DAD650071A371 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C43D05BD2991696B005A9DDD /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		C49E02F3298DAD650071A371 /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E02F6298DAD650071A371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C49E02F8298DAD650071A371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C49E02F6298DAD650071A371 /* AppDelegate.swift */,
 				C49E02F8298DAD650071A371 /* SceneDelegate.swift */,
 				C49E02FA298DAD650071A371 /* ViewController.swift */,
+				C43D05BD2991696B005A9DDD /* CreditViewController.swift */,
 				C49E02FC298DAD650071A371 /* Main.storyboard */,
 				C49E02FF298DAD670071A371 /* Assets.xcassets */,
 				C49E0301298DAD670071A371 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C49E02FB298DAD650071A371 /* ViewController.swift in Sources */,
 				C49E02F7298DAD650071A371 /* AppDelegate.swift in Sources */,
 				C49E02F9298DAD650071A371 /* SceneDelegate.swift in Sources */,
+				C43D05BE2991696B005A9DDD /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +292,14 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCM87YWJ79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UpDownGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +321,14 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCM87YWJ79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UpDownGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
